@@ -1,0 +1,30 @@
+#map {
+    margin-bottom: 100px;
+  .map-info {
+    padding-top: 6.25rem;
+    padding-left: 4.375rem;
+    background: rgb(245, 245, 245);
+    height: 100%;
+    .map-title {
+      h2 {
+        margin-bottom: 16px;
+        font-size: 32px;
+        font-weight: 500;
+      }
+    }
+    .map-text {
+      p {
+        color: rgb(140, 140, 140);
+      }
+    }
+  }
+  .google-map {
+    iframe {
+      width: 100%;
+      height: 640px;
+    }
+  }
+  .map-select {
+                          // todo saytda nece verib burani? li ile verib //
+  }
+}

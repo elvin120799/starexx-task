@@ -1,0 +1,35 @@
+#services-page {
+    margin-bottom: 100px;
+    .service-img {
+      margin-bottom: 35px;
+    }
+  .service-title {
+    margin-bottom: 15px;
+    h2 {
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+  .service-text {
+    p {
+      color: rgb(140, 140, 140);
+    }
+  }
+  .service-card {
+    margin-top: 50px;
+    padding-right: 30px;
+    .service-card-title {
+      h6 {
+        margin: 16px 0;
+        font-size: 16px;
+        font-weight: 500;
+      }
+    }
+    .service-card-text {
+      p {
+        color: rgb(140, 140, 140);
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

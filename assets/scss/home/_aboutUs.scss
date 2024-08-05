@@ -1,0 +1,26 @@
+#aboutUs {
+  background-color: rgb(245, 245, 245);
+  .aboutUs-info {
+    padding: 6.5rem 9rem 6.5rem 9rem;
+    .aboutUs-title {
+      h2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgb(38, 38, 38);
+        margin-bottom: 16px;
+      }
+    }
+    .aboutUs-text {
+        p {
+            color: rgb(140, 140, 140);
+            line-height: 1.5rem;
+            margin-bottom: 20px;
+        }
+    }
+  }
+  .aboutUs-img {
+    img {
+        
+    }
+  }
+}

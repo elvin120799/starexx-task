@@ -1,0 +1,61 @@
+footer {
+  background-color: rgb(245, 245, 245);
+  padding: 56px 0 32px;
+ 
+    .footer-top {
+        padding-bottom: 24px;
+        .footer-left {
+            padding: 0 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            .footer-logo-stores {
+                .footer-stores {
+                    img {
+                        width: 100px;
+                        height: 30px;
+                    }
+                }
+            }
+            .footer-call {
+              color: rgb(38, 38, 38);
+            }
+        }
+      .footer-content {
+        padding: 0 12px;
+        .footer-title {
+          h4 {
+            font-size: 1.75rem;
+            color: rgb(38, 38, 38);
+            font-weight: 500;
+          }
+        }
+        ul {
+          margin-top: 28px;
+          color: rgb(140, 140, 140);
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+        }
+      }
+    }
+   
+  .copyright {
+    position: relative;
+    margin-top: 32px;
+
+   &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(217, 217, 217);
+   }
+    p {
+      font-size: 0.875rem;
+      color: rgb(38, 38, 38);
+      padding: 2rem 0 0 194px;
+    }
+  }
+}

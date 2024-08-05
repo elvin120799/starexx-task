@@ -1,0 +1,21 @@
+@import "layout/header-page";
+@import "layout/footer";
+@import "terms/terms";
+@import "services/services-page";
+@import "tariff/tariff-page";
+@import "contact/contact";
+@import "news/news-page";
+
+
+
+
+
+
+
+body {
+    color: #39464e;
+}
+.active-anchor {
+color: rgb(0, 90, 255) !important ;
+}
+

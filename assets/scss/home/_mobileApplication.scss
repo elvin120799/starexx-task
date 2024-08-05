@@ -1,0 +1,21 @@
+#mobileApplication {
+    margin-bottom: 100px;
+  .mob-app-info {
+    padding: 220px 160px 0;
+    .mob-app-title {
+      h2 {
+        font-size: 32px;
+        font-weight: 500;
+        color: rgb(38, 38, 38);
+        margin-bottom: 16px;
+      }
+    }
+    .mob-app-text {
+      p {
+        color: rgb(140, 140, 140);
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

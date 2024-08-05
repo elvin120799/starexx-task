@@ -1,0 +1,25 @@
+#terms {
+  .terms-title {
+    margin-bottom: 40px;
+    .large-p {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgba(0, 54, 78, 0.2);
+      font-size: 80px;
+      color: #fff;
+    }
+    .small-p {
+      font-size: 32px;
+      color: #003087;
+      position: relative;
+      bottom: 34px;
+      left: 38px;
+    }
+  }
+  .terms-content {
+    padding-bottom: 150px;
+    p {
+        font-size: 18px;
+        line-height: 33px;
+    }
+  }
+}
